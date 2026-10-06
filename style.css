@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f5f5f5;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+video {
+    width: 640px;
+    height: 480px;
+    border: 3px solid #333;
+    border-radius: 10px;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: blue;
+}
+
+video,
+canvas {
+    width: 640px;
+    height: 480px;
+    border: 3px solid #333;
+    border-radius: 10px;
+}
+
+canvas {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+video {
+    display: none;
+}
